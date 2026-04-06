@@ -62,7 +62,7 @@ function Login() {
                     </div>
                 </form>
             </div>
-            <p onClick={() => { nav('/') }} id="navLink">Create an account ? <span id="navLinkSpan">Signup</span></p>
+            <p onClick={() => { nav('/signup') }} id="navLink">Create an account ? <span id="navLinkSpan">Signup</span></p>
 
         </div>
     );
