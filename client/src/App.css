@@ -1,0 +1,259 @@
+@media (max-width:1250px) {
+  #title {
+    margin-top: 30%;
+    font-size: 20px;
+  }
+
+  .input {
+    width: 300px;
+  }
+
+  .btn {
+    width: 310px;
+    
+  }
+
+  .inputDiv {
+    width: 300px;
+  }
+
+  .leftDiv {
+    height: 70vh;
+    width: 300px;
+    background-color: rgb(255, 255, 255);
+    position: fixed;
+    top: 11%;
+    right: 9px;
+    border-radius: 30px;
+    box-shadow: 0.3px 0.3px 9px black;
+    z-index: 999;
+  }
+
+  .head {
+    gap: 3%;
+  }
+
+  #headerTitle {
+    text-align: center;
+    display: block;
+  }
+
+  .bottomDiv {
+    width: 350px;
+    gap: 43px;
+
+  }
+
+  .searchDiv {
+    position: fixed;
+    top: 14.5%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    border: 0.3px solid orange;
+    height: 40px;
+    width: 300px;
+    border-radius: 40px;
+    padding-left: 20px;
+    padding-left: 20px;
+    margin-bottom: 20px;
+    padding-right: 20px;
+    box-shadow: 0.3px 0.3px 4px rgb(216, 139, 75);
+
+
+  }
+
+
+  #searchInput {
+    height: 40px;
+    width: 300px;
+    background-color: transparent;
+    border: none;
+    outline: none;
+  }
+
+  #searchIcons {
+    color: orange;
+    font-size: 25px;
+    border-right: 0.3px solid orange;
+    padding-right: 20px;
+  }
+
+
+
+  #pragatiLogo {
+    height: 35px;
+    width: 35px;
+  }
+
+
+
+  .skillDiv {
+    display: flex;
+    gap: 29px;
+    margin-top: 9px;
+    width: 900px;
+
+  }
+
+  .skill {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+  }
+
+  #skillLogo {
+    height: 30px;
+    width: 30px;
+  }
+
+  #skillName {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+  }
+
+  #displayTitle {
+    font-size: 17px;
+  }
+
+
+
+  #ev {
+    font-size: 20px;
+  }
+
+  .headItems {
+    display: none;
+
+  }
+
+  #book {
+    color: white;
+  }
+
+  #bookNow {
+    /* background: linear-gradient(180deg, #ff4938 0%, #fdb286 100%); */
+  background: linear-gradient(180deg, #FF2D1B 0%, #FF7F37 100%);
+
+    color: white;
+  }
+
+  .ads {
+    position: fixed;
+    top: 28%;
+    height: 330px;
+    width: 330px;
+  }
+
+  #close {
+    position: absolute;
+    top: 27%;
+    color: rgb(255, 255, 255);
+    font-size: 30px;
+    right: 0px;
+    background-color: red;
+    border-radius: 50%;
+    padding: 5px;
+    z-index: 99;
+  }
+
+  #detailsTitle {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 19px;
+    color: rgb(85, 85, 85);
+    width: auto;
+
+
+  }
+
+  .detailsTitle {
+    box-shadow: 0.1px 0.1px 1px rgb(87, 4, 143);
+
+  }
+
+  #displayTitle {
+    margin-top: 25px;
+  }
+
+  .allProject {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px;
+    /* padding: 9px; */
+    gap: 30px;
+    padding-top: -90px;
+
+  }
+
+  .pro {
+    box-shadow: 0.3px 0.3px 9px rgb(255, 135, 22);
+    border: 0.9px solid rgb(255, 255, 255);
+    border-radius: 30px;
+    padding: 25px;
+    height: 100px;
+    width: 290px;
+  }
+
+
+
+
+.last{
+    display: flex;
+    flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+
+.lastImg {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1px;
+  padding: 20px;
+
+}
+
+#lastImg {
+  color: rgb(214, 59, 12);
+  font-size: 40px;
+}
+#lastName{
+    font-size: 18px;
+}
+.lastIconName{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 5px;
+}
+
+  #finalHead{
+  height: 100px;
+
+}
+
+#final {
+  height: 200px;
+  margin-bottom: 20px;
+  border-radius: 9px;
+}
+
+.detailsTitle {
+  margin-top: 30px;
+  
+}
+
+#logAD{
+  height: 400px;
+  width: 98%;
+  position: fixed;
+  top: 23%;
+  border-radius: 9px;
+
+}
+
+
+}
