@@ -44,14 +44,14 @@ function Home() {
                         <h1 id="digital"><span style={{color:"rgb(255, 115, 0)"}}>Digital Identity</span> aur QR Marketing se apna <span style={{color:"rgb(255, 115, 0)"}}>business grow </span>karein</h1>
                     </div>
                 }
-                {/* {
+                {
                     !userData && <div className="coverLogin" onClick={() => { nav('/login') }}></div>
 
                 }
 
                 {
                     !userData && <img src={log} id="logAD" />
-                } */}
+                }
             </div>
 
 
