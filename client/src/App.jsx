@@ -6,8 +6,8 @@ import "./App.css"
 import { useSelector } from "react-redux";
 import Home from "./pages/Home";
 import Post from "./pages/Post";
-import useGetCurrentUser from "./customHooks/useGetCurrentUser";
-import useGetOtherUserData from "./customHooks/useGetOtherUserData";
+import useGetCurrentUser from "./customHooks/getCurrentUser";
+import useGetOtherUserData from "./customHooks/getOtherUserData";
 
 
 function App(){
