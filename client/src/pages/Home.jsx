@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import Left from "./left";
+import Left from "./Left";
 import { RiMenuAddFill } from "react-icons/ri";
 import Bottom from "./Bottom";
 import { useSelector } from "react-redux";
