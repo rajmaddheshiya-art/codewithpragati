@@ -2,7 +2,7 @@ import React, { useEffect, useState } from "react";
 import { GiConcentrationOrb } from "react-icons/gi";
 import { LuSquareMenu } from "react-icons/lu";
 import { motion, AnimatePresence } from "framer-motion";
-import Left from "./left";
+import Left from "./Left";
 import pLogo from "../assets/pLogo.png"
 function Header() {
     let [menu, setMenu] = useState(false)
