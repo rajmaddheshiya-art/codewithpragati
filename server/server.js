@@ -10,7 +10,7 @@ const port = process.env.PORT || 5000;
 const app = express()
 
 app.use(cors({
-    origin:["http://192.168.43.163:5173", "http://localhost:5173"],
+    origin:"https://codewithpragati.onrender.com",
     methods:["GET","POST"],
     credentials:true
 }))
