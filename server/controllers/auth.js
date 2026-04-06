@@ -78,7 +78,7 @@ export const login = async (req, res) => {
             sameSite: "strict"
         })
 
-        return res.status(201).json(checkUserName)
+        return res.status(200).json(checkUserName)
     } catch (error) {
         return res.status(500).json({ message: `Login error ${error}` })
     }

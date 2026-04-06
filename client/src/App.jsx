@@ -3,11 +3,11 @@ import { Navigate, Route, Routes } from "react-router";
 import SignUp from "./pages/Signup";
 import Login from "./pages/Login";
 import "./App.css"
-import useGetCurrentUser from "./customHooks/getCurrentUser";
 import { useSelector } from "react-redux";
 import Home from "./pages/Home";
 import Post from "./pages/Post";
-import useGetOtherUserData from "./customHooks/getOtherUserData";
+import useGetCurrentUser from "./customHooks/useGetCurrentUser";
+import useGetOtherUserData from "./customHooks/useGetOtherUserData";
 
 
 function App(){
