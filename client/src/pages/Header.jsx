@@ -3,7 +3,7 @@ import { GiConcentrationOrb } from "react-icons/gi";
 import { LuSquareMenu } from "react-icons/lu";
 import { motion, AnimatePresence } from "framer-motion";
 import Left from "./Left";
-import pLogo from "../assets/pLogo.png"
+import pragatiLogo from "../assets/pragatiLogo.jpeg"
 function Header() {
     let [menu, setMenu] = useState(false)
     let [text, setText] = useState("Code with pragati")
@@ -19,7 +19,7 @@ function Header() {
         <div className="header">
             <div className="head">
                 <div className="headerIco">
-                    <img src={pLogo} id="pragatiLogo" />
+                    <img src={pragatiLogo} id="pragatiLogo" />
                     {/* <h1 id="cwp">CWP</h1> */}
 
                 </div>
