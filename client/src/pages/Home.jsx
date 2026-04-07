@@ -41,7 +41,7 @@ function Home() {
                         animate={{rotate: 360}}
                         transition={{ duration:1,repeat:Infinity}}
                         ><SiGooglemarketingplatform id="digitalIcon"/></motion.p>
-                        <h1 id="digital"><span style={{color:"rgb(255, 115, 0)"}}>Digital Identity</span> aur QR Marketing se apna <span style={{color:"rgb(255, 115, 0)"}}>business grow </span>karein</h1>
+                        <h1 id="digital"><span style={{color:"#006fca"}}>Digital Identity</span> aur QR Marketing se apna <span style={{color:"#006fca"}}>business grow </span>karein</h1>
                     </div>
                 }
                 {

@@ -135,7 +135,8 @@
 
   #bookNow {
     /* background: linear-gradient(180deg, #ff4938 0%, #fdb286 100%); */
-  background: linear-gradient(180deg, #FF2D1B 0%, #FF7F37 100%);
+   background: linear-gradient(180deg, #22034b 0%, #006fca 100%);
+
 
     color: white;
   }
@@ -190,7 +191,7 @@
   }
 
   .pro {
-    box-shadow: 0.3px 0.3px 9px rgb(255, 135, 22);
+    box-shadow: 0.3px 0.3px 9px #006fca;
     border: 0.9px solid rgb(255, 255, 255);
     border-radius: 30px;
     padding: 25px;
@@ -277,11 +278,10 @@
 }
 
 #digitalIcon{
-  color: rgb(255, 115, 0);
+  color: #006fca ;
   font-size: 60px;
   margin: 9px;
   padding-right: 150px;
-
 }
 
 #cut{
